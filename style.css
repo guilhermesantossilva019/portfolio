@@ -1,0 +1,403 @@
+* {
+    scroll-behavior: smooth;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+
+/* main */
+
+.background {
+    background-image: url(../img/background.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+nav {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 20px;
+    padding-left: 8%;
+    padding-right: 8%;
+    min-height: 15vh;
+}
+
+nav ul {
+    min-height: 100%;
+}
+
+nav ul li {
+    display: inline-block;
+    padding: 10px 25px;
+    list-style-type: none;
+}   
+
+nav ul li a {
+    color: whitesmoke;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+    text-transform: capitalize;
+    transition: 0.4s;
+    padding: 10px;
+}
+
+nav ul li a:hover {
+    color: #f9004d;
+}
+
+.main {
+    position: absolute;
+    top: 25%;
+    left: 8%;
+    transform: translateY(-50);
+}
+
+.main h4 {
+    color: #fcfcfc;
+    letter-spacing: 2px;
+    font-size: 30px;
+}
+
+.main h1 {
+    color: #fff;
+    margin: 20px 0px 20px;
+    font-size: 80px;
+}
+
+span {
+    color: #f9004d;
+}
+
+.main h3 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-bottom: 50px;
+}
+
+.main button {
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 16pt;
+    font-weight: bold;
+    background-color: #f9004d;
+    border: none;
+    transition: 0.3s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.main button:hover {
+    background: transparent;
+    border: 1px solid #f9004d;
+}
+
+.main button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* main */
+
+
+/* -- section sobre -- */
+
+#background-color-sobre {
+    background-color: #191919;
+    width: 100%;
+    height: 100vh;
+    padding: 100px 0px;
+}
+
+#background-color-sobre img {
+    width: 380px;
+    height: auto;
+}
+
+.main-sobre {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    min-width: 100%;
+    min-height: 100%;
+    width: 1130px;
+    margin: 0 auto;
+}
+
+.text-sobre {
+    width: 550px;
+}
+
+.text-sobre h2 {
+    color: #fff;
+    font-size: 75px;
+    text-transform: capitalize;
+    margin-top: 0;
+    margin-bottom: 20px;
+}
+
+.text-sobre h5 {
+    color: #fff;
+    letter-spacing: 2px;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 25px;
+    text-transform: capitalize;
+}
+
+.text-sobre p {
+    color: #fcfcfc;
+    letter-spacing: 1px;
+    line-height: 28px;
+    text-align: justify;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+
+.text-sobre button {
+    width: 150px;
+    height: 50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 14pt;
+    background-color: #f9004d;
+    border: none;
+    transition: 0.3s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.text-sobre button:hover {
+    background: transparent;
+    border: 1px solid #f9004d;
+}
+
+.text-sobre button a {
+    text-decoration: none;
+    color: #fff;
+}
+
+/* -- section sobre -- */
+
+/* -- section projetos -- */
+
+#background-color-projetos {
+    padding: 100px;
+    background-color: #191919;
+    min-width: 100%;
+
+}
+
+.projetos-title h2{
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.projetos-cards {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    width: 25%;
+    margin: 25px;
+    padding: 20px;
+    background-color: #2e2e2e;
+    border-radius: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.card h2 {
+    color: #fff;
+}
+
+.card img {
+    width: 20vw;
+    height: 25vh;
+    border-radius: 5px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
+.card button {
+    width: 100px;
+    height: 50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 13pt;
+    background-color: #f9004d;
+    border: none;
+    transition: 0.3s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.card button:hover {
+    background: transparent;
+    border: 1px solid #f9004d;
+}
+
+.card button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+#background-color-certificados {
+    padding: 100px;
+    background-color: #191919;
+}
+
+.certificados-title h2 {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    font-size: 60px;
+}
+
+.certificados-cards {
+    display: flex;
+    flex-basis: 100%;
+    flex-wrap: wrap;
+    justify-content: center ;
+}
+
+.email {
+    padding: 100px;
+    background-color: #2e2e2e;
+    text-align: center;
+}
+
+.email h2 {
+    color: #fff;
+    margin: 0;
+    margin-bottom: 20px;
+    font-size: 35px;
+}
+
+.email button {
+    width: 140px;
+    height: 50px;
+    color: #fff;
+    font-weight: bold;
+    font-size: 16px;
+    background-color: #f9004d;
+    border: none;
+    transition: 0.3s;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+.email button:hover {
+    background: transparent;
+    border: 1px solid #f9004d; 
+}
+
+.email button a {
+    color: #fff;
+    text-decoration: none;
+}
+
+.sociais {
+    padding: 100px;
+    padding-bottom: 10px;
+    background-color: #191919;
+}
+
+.sociais h2 {
+    text-align: center;
+    color: #fff;
+    margin: 0;
+    margin-bottom: 15px;
+    font-size: 40px;
+}
+
+.redes-sociais {
+    display: flex;
+    justify-content: center;
+}
+
+.redes-sociais a {
+    background-color: #f9004d;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    transition: 0.2s;
+}
+
+.redes-sociais a:hover {
+    width: 55px;
+    height: 55px;
+}
+
+.sociais p {
+    text-align: center;
+    color: #fff;
+    margin-top: 60px;
+    margin-bottom: 0px;
+    font-size: 12px;
+    font-weight: bold;
+}
+
+.angle-up {
+    background-color: #f9004d;
+    color: #fff;
+    width: 50px;
+    height: 50px;
+    padding: 10px;
+    border-radius: 50%;
+    margin: 10px;
+    text-decoration: none;
+    font-size: 32px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    transition: 0.2s;
+}
+
+.angle-up:hover {
+    width: 55px;
+    height: 55px;
+}
+
+/* MOBILE DEVICES */
+
+@media only screen and (max-width: 320px){
+    body {
+
+    }
+
+    .background {
+       
+    }
+}
