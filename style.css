@@ -394,7 +394,7 @@ span {
 
 .redes-sociais a {
     background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
+    color: #fcfcfc;
     width: 50px;
     height: 50px;
     padding: 10px;
@@ -434,7 +434,7 @@ span {
 
 .angle-up {
     background-color: var(--cor-primaria);
-    color: var(--cor-secundaria);
+    color: #fcfcfc;
 
     width: 50px;
     height: 50px;
