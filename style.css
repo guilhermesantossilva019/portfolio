@@ -273,7 +273,7 @@ span {
     margin: 20px;
     width: 25%;
     height: auto;
-    background-color: #fcfcfc;
+    background-color: #cacaca;
     padding: 2%;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 0px var(--cor-tercearia);
@@ -291,7 +291,7 @@ span {
   }
   
   .skill-text {
-    background-color: #fcfcfc;
+    background-color: #cacaca;
     border-radius: 10px;
     margin-top: 10px;
     padding: 10px;
@@ -367,7 +367,7 @@ span {
     height: auto;
     padding: 2em;
 
-    background-color: var(--cor-tercearia);
+    background-color: #fcfcfc;
     display: flex;
     flex-direction: column;
     align-items: center;
