@@ -143,7 +143,7 @@ span {
 /* Página-Sobre-Mim */
 
 #background-color-sobre {
-    background-color: var(--cor-secundaria);
+    background-color: #fcfcfc;
     width: 100%;
     height: 100vh;
     padding: 100px 0px;
@@ -188,7 +188,7 @@ span {
 }
 
 .about-me {
-    color: #fcfcfc;
+    color: #000;
     letter-spacing: 1px;
     line-height: 28px;
     text-align: justify;
@@ -415,7 +415,7 @@ span {
 
 .ult {
     text-decoration: none;
-    color: var(--cor-secundaria);
+    color: #000;
 }
 
 .ult:hover {
