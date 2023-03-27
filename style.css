@@ -143,7 +143,7 @@ span {
 /* Página-Sobre-Mim */
 
 #background-color-sobre {
-    background-color: #fcfcfc;
+    background-color: #ececec;
     width: 100%;
     height: 100vh;
     padding: 100px 0px;
@@ -273,7 +273,7 @@ span {
     margin: 20px;
     width: 25%;
     height: auto;
-    background-color: #cacaca;
+    background-color: #ececec;
     padding: 2%;
     border-radius: 20px;
     box-shadow: 2px 2px 2px 0px var(--cor-tercearia);
@@ -291,7 +291,7 @@ span {
   }
   
   .skill-text {
-    background-color: #cacaca;
+    background-color: #ececec;
     border-radius: 10px;
     margin-top: 10px;
     padding: 10px;
