@@ -324,50 +324,74 @@ span {
     transition: 0.5s;
   } 
 
+@keyframes progress-bar1 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes progress-bar2 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 80%;
+    }
+}
+
+@keyframes progress-bar3 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
+@keyframes progress-bar4 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 60%;
+    }
+}
+
+@keyframes progress-bar5 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 50%;
+    }
+}
+
+@keyframes progress-bar6 {
+    0% {
+        width: 0;
+    }
+
+    100% {
+        width: 20%;
+    }
+}
+
 /* Página Contato */
-
-.email {
-    padding: 100px;
-    background-color: var(--cor-quarta);
-    text-align: center;
-}
-
-.email h2 {
-    color: var(--cor-secundaria);
-    margin: 0;
-    margin-bottom: 20px;
-    font-size: 35px;
-}
-
-.email button {
-    width: 140px;
-    height: 50px;
-    color: var(--cor-secundaria);
-    font-weight: bold;
-    font-size: 16px;
-    background-color: var(--cor-primaria);
-    border: none;
-    transition: 0.3s;
-    border-radius: 50px;
-    cursor: pointer;
-}
-
-.email button:hover {
-    background: transparent;
-    border: 1px solid var(--cor-primaria); 
-}
-
-.email button a {
-    color: var(--cor-secundaria);
-    text-decoration: none;
-}
 
 .sociais {
     width: 100%;
     height: auto;
     padding: 2em;
 
-    background-color: #fcfcfc;
+    background-color: var(--cor-quarta);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -380,7 +404,7 @@ span {
 
 .sociais-main h2 {
     text-align: center;
-    color: var(--cor-quarta);
+    color: var(--cor-secundaria);
     margin: 0;
     margin-bottom: 15px;
     font-size: 30px;
@@ -394,7 +418,7 @@ span {
 
 .redes-sociais a {
     background-color: var(--cor-primaria);
-    color: #fcfcfc;
+    color: var(--cor-secundaria);
     width: 50px;
     height: 50px;
     padding: 10px;
@@ -415,7 +439,7 @@ span {
 
 .ult {
     text-decoration: none;
-    color: var(--cor-quarta);
+    color: var(--cor-secundaria);
 }
 
 .ult:hover {
@@ -426,7 +450,7 @@ span {
 
 .sociais-main p {
     text-align: center;
-    color: var(--cor-quarta);
+    color: var(--cor-secundaria);
     margin-top: 10px;
     margin-bottom: 0px;
     font-size: 12px;
