@@ -7,6 +7,7 @@
 }
 
 :root {
+    --cor-rgb: linear-gradient(45deg, #2B2512, #4A2D00, #6B290F,#70580A);
     --cor-primaria: #AF4319;
     --cor-secundaria: #BDBBB0;
     --cor-tercearia: #8A897C;
@@ -215,29 +216,6 @@ span {
 
 }
 
-.text-sobre button {
-    width: 150px;
-    height: 50px;
-    color: var(--cor-secundaria);
-    font-weight: bold;
-    font-size: 14pt;
-    background-color: var(--cor-primaria);
-    border: none;
-    transition: 0.3s;
-    border-radius: 50px;
-    cursor: pointer;
-}
-
-.text-sobre button:hover {
-    background: transparent;
-    border: 1px solid var(--cor-primaria);
-}
-
-.text-sobre button a {
-    text-decoration: none;
-    color: var(--cor-secundaria);
-}
-
 /* Página Habilidades */
 
 #background-color-skills {
@@ -283,7 +261,7 @@ span {
   }
 
   .skill:hover {
-    box-shadow: 0px 4px 8px 0px var(--cor-primaria);
+    box-shadow: 0px 4px 8px 0px #6B290F;
   }  
   
   .skill img {
@@ -295,6 +273,7 @@ span {
     border-radius: 10px;
     margin-top: 10px;
     padding: 10px;
+    cursor: default;
   }
   
   .skill-text h3 {
@@ -318,7 +297,7 @@ span {
   
   
   .progress {
-    background-color: #00FA9A;
+    background: var(--cor-rgb);
     height: 100%;
     border-radius: 5px;
     transition: 0.5s;
@@ -417,7 +396,7 @@ span {
 }
 
 .redes-sociais a {
-    background-color: var(--cor-primaria);
+    background: var(--cor-rgb);
     color: var(--cor-secundaria);
     width: 50px;
     height: 50px;
@@ -457,7 +436,7 @@ span {
 }
 
 .angle-up {
-    background-color: var(--cor-primaria);
+    background: var(--cor-rgb);
     color: #fcfcfc;
 
     width: 50px;
