@@ -1,0 +1,98 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Press Start 2P', cursive;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    margin: 0 auto;
+    position: relative;
+    overflow: hidden;
+    background: linear-gradient(#87CEEB, #E0F6FF);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main {
+    width: 60%;
+    height: 80%;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 10px;
+    border: 20px solid transparent;
+    background: linear-gradient(#87CEEB, #E0F6FF) padding-box, linear-gradient(to right, #824C41, #D89E6D, #824C41) border-box;
+}
+
+.main h1 {
+    text-align: center;
+    font-size: 28pt;
+    margin-top: 20px;
+    margin-bottom: 60px;
+
+    cursor: default;
+    color: #333;
+}
+
+.main h1 span {
+    background-image: linear-gradient(to bottom, #08469E, #824C41, #D89E6D);
+    background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.mario-box {
+    width: 100%;
+    height: 100px;
+}
+
+.main img {
+    width: 100px;
+    position: absolute;
+
+    animation: mario-animation 5s infinite linear;
+}
+
+@keyframes mario-animation {
+    from {
+        left: 290px;
+    }
+    to {
+        left: 950px;
+    }
+}
+
+hr {
+    background-color: #333;
+    height: 10px;
+    width: 100%;
+    border: none;
+    margin-bottom: 80px;
+}
+
+a {
+    color: #333;
+    text-decoration: none;
+    transition: 0.5s;
+}
+
+a:hover {
+    color: #08469E;
+}
+
+p {
+    position: absolute;
+    bottom: 5px;
+    text-align: center;
+
+    font-size: 8pt;
+    letter-spacing: 0px;
+}
