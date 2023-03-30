@@ -462,6 +462,10 @@ span {
     box-shadow: 0px 0px 5px var(--cor-primaria);  
 }
 
+#direitos {
+    margin-top: 20px;
+}
+
 /* MOBILE DEVICES */
 
 @media only screen and (max-width: 320px){
