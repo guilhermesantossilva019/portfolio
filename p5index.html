@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-maskmoney/3.0.2/jquery.maskMoney.min.js"></script>
+
+	<link rel="preconnect" href="https://fonts.googleapis.com">
+	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+	<link href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+	<link rel="stylesheet" href="p5style.css">
+	<script src="p5script.js"></script>
+
+	<title>Calculo IMC</title>
+</head>
+
+<body>
+	<div class="main">
+		<div class="main-form">
+			<div class="form">
+				<h1>Formulário IMC</h1>
+				<div class="div-input">
+					<label for="name">Digite seu nome:</label>
+					<br>
+					<input type="text" name="name" id="name" required>
+				</div>
+				<div class="div-input">
+					<label for="idade">Digite sua idade:</label>
+					<br>
+					<input type="text" name="idade" id="idade">
+				</div>
+				<div class="div-input">
+					<label for="peso">Digite seu peso (kg):</label>
+					<br>
+					<input type="text" name="peso" id="peso" required>
+				</div>
+				<div class="div-input">
+					<label for="altura">Digite sua altura (m):</label>
+					<br>
+					<input type="text" name="altura" id="altura" value="0.00" required>
+				</div>
+				<div class="div-input">
+					<input type="button" value="Calcular" onclick="imc()">
+				</div>
+			</div>
+		</div>
+		<div class="main-data">
+			<div class="data-table">
+				<h1>Tabela IMC</h1>
+				<table>
+					<tbody>
+						<tr class="bg-tr">
+							<th>IMC</th>
+							<th>Classificação</th>
+						</tr>
+						<tr>
+							<td>
+								<strong>Menor que&nbsp;18,5</strong>
+							</td>
+							<td>Magreza</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>18,5 a 24,9</strong>
+							</td>
+							<td>Normal</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>25 a 29,9</strong>
+							</td>
+							<td>Sobrepeso</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>30 a 34,9</strong>
+							</td>
+							<td>Obesidade grau I</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>35 a 39,9</strong>
+							</td>
+							<td>Obesidade grau II</td>
+						</tr>
+						<tr>
+							<td>
+								<strong>Maior que 40</strong>
+							</td>
+							<td>Obesidade grau III</td>
+						</tr>
+					</tbody>
+				</table>
+				<h1>Resultado</h1>
+				<div class="result-box">
+						<div class="result-things">
+							<label for="result-name"><strong>Nome:</strong></label>
+							<span id="result-name"></span>
+						</div>
+						<div class="result-things">
+							<label for="result-imc"><strong>Seu IMC:</strong></label>
+							<span id="result-imc"></span>
+						</div>
+						<div class="result-things">
+							<label for="result-class"><strong>Classificação:</strong></label>
+							<span id="result-class"></span>
+						</div>
+					</div>
+			</div>
+		</div>
+		<p id="gui">© Made by Guilherme</p>
+	</div>
+</body>
+
+</html>
