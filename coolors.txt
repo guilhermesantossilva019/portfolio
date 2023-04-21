@@ -1,0 +1,19 @@
+ CORES PRIMÁRIAS
+
+	- #000029 - Oxford Blue
+	- #04263B - Prussian Blue
+	- #073D5F - Indigo Dye 
+
+  CORES SECUNDÁRIAS 
+	- #F57A00 - Safety Orange
+	- #FF850A - UT Orange
+	- #FF8F1F - Dark Orange
+
+  CORES PARA TEXTO
+	dark theme
+	- #333333 - Jet
+	- #3D3D3D - Onyx
+
+	white theme
+	- #F5F5F5 - White Smoke
+	- #FFFFFF - White 
